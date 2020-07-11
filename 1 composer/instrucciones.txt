@@ -1,0 +1,8 @@
+- CONSOLA
+ - en el archivo composer.json , colocamos en el aprtado de dev , las dependeencias a incluir
+ - desde la consola colocamos
+	- composer install   //descargara las dependencias
+- cuando se agreguen mas dependencias se actualiza asi:
+	- composer update
+- otra forma de instalar es desde consola sin colocar la depencidneia en el compsoer.json
+	- composer require nombreDependencia
